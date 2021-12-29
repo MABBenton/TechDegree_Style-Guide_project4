@@ -3,71 +3,71 @@
 /* ============================================= */
 
 .container {
-    padding: 0 10px;
-  }
-  
-  .row {
+  padding: 0 10px;
+  row {
     display: flex;
     flex-direction: column;
     padding: 1em 10px;
-  }
+  }  
+}
   
-  [class^=col] {
-    margin-top: 10px;
-    flex-basis: 100%;
-    min-height: 25px;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  .theme.col-1 {
-    background-color: $col1-btn-info;
-  }
-  
-  .theme.col-2 {
-    background-color: $col2-btn-warning;
-  }
-  
-  .theme.col-3 {
-    background-color: $col3;
-  }
-  
-  .theme.col-4 {
-    background-color: $col4;
-  }
-  
-  .theme.col-5 {
-    background-color: $col5;
-  }
-  
-  .theme.col-6 {
-    background-color: $col6;
-  }
-  
-  .theme.col-7 {
-    background-color: $col7;
-  }
-  
-  .theme.col-8 {
-    background-color: $col8;
-  }
-  
-  .theme.col-9 {
-    background-color: $col9-btn-error;
-  }
-  
-  .theme.col-10 {
-    background-color: $col10-btn-success;
-  }
-  
-  .theme.col-11 {
-    background-color: $col11-btn-default;
-  }
-  
-  .theme.col-12 {
-    background-color: $col12;
-  }
-  
-  .card {
-    flex-basis: 100%;
-  }
+
+[class^=col] {
+  margin-top: 10px;
+  flex-basis: 100%;
+  min-height: 25px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.theme.col-1 {
+  background-color: $col1-btn-info;
+}
+
+.theme.col-2 {
+  background-color: $col2-btn-warning;
+}
+
+.theme.col-3 {
+  background-color: $col3;
+}
+
+.theme.col-4 {
+  background-color: $col4;
+}
+
+.theme.col-5 {
+  background-color: $col5;
+}
+
+.theme.col-6 {
+  background-color: $col6;
+}
+
+.theme.col-7 {
+  background-color: $col7;
+}
+
+.theme.col-8 {
+  background-color: $col8;
+}
+
+.theme.col-9 {
+  background-color: $col9-btn-error;
+}
+
+.theme.col-10 {
+  background-color: $col10-btn-success;
+}
+
+.theme.col-11 {
+  background-color: $col11-btn-default;
+}
+
+.theme.col-12 {
+  background-color: $col12;
+}
+
+.card {
+  flex-basis: 100%;
+}

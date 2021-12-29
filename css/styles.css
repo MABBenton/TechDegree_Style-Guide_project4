@@ -512,8 +512,7 @@ a {
 .container {
   padding: 0 10px;
 }
-
-.row {
+.container row {
   display: flex;
   flex-direction: column;
   padding: 1em 10px;

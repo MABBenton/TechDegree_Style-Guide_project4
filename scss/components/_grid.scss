@@ -20,52 +20,43 @@
   border-radius: 5px;
 }
 
-.theme.col-1 {
-  background-color: $col1-btn-info;
-}
-
-.theme.col-2 {
-  background-color: $col2-btn-warning;
-}
-
-.theme.col-3 {
-  background-color: $col3;
-}
-
-.theme.col-4 {
-  background-color: $col4;
-}
-
-.theme.col-5 {
-  background-color: $col5;
-}
-
-.theme.col-6 {
-  background-color: $col6;
-}
-
-.theme.col-7 {
-  background-color: $col7;
-}
-
-.theme.col-8 {
-  background-color: $col8;
-}
-
-.theme.col-9 {
-  background-color: $col9-btn-error;
-}
-
-.theme.col-10 {
-  background-color: $col10-btn-success;
-}
-
-.theme.col-11 {
-  background-color: $col11-btn-default;
-}
-
-.theme.col-12 {
-  background-color: $col12;
+.theme {
+  &.col-1 { 
+    background-color: $col1-btn-info;
+  }
+  &.col-2 {
+    background-color: $col2-btn-warning;
+  }
+  &.col-3 {
+    background-color: $col3;
+  }
+  &.col-4 {
+    background-color: $col4;
+  }
+  &.col-5 {
+    background-color: $col5;
+  }
+  &.col-6 {
+    background-color: $col6;
+  }
+  &.col-7 {
+    background-color: $col7;
+  }
+  &.col-8 {
+    background-color: $col8;
+  }
+  &.col-9 {
+    background-color: $col9-btn-error;
+  }
+  &.col-10 {
+    background-color: $col10-btn-success;
+  }
+  &.col-11 {
+    background-color: $col11-btn-default;
+  }
+  &.col-12 {
+    background-color: $col12;
+  }
 }
 
 .card {

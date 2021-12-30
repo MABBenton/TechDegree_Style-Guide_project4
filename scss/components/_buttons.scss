@@ -12,17 +12,36 @@
   border-radius: 5px;
   &.default {
     background-color: $col11-btn-default;
+    @include transition {
+      background-color: $col11-btn-default-light;
+    }
   }
+
   &.error {
     background-color: $col9-btn-error;
+    @include transition {
+      background-color: $col9-btn-error-light;
+    }
   }
+
   &.info {
     background-color: $col1-btn-info;
+    @include transition {
+      background-color: $col1-btn-info-light;
+    }
   }
+
   &.success {
     background-color: $col10-btn-success;
+    @include transition {
+      background-color: $col10-btn-success-light;
+    }
   }
+
   &.warning {
     background-color: $col2-btn-warning;
+    @include transition {
+      background-color: $col2-btn-warning-light;
+    }
   }
 }

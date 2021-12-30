@@ -408,19 +408,19 @@ a {
   text-transform: uppercase;
   border-radius: 5px;
 }
-.btn .default {
+.btn.default {
   background-color: #51ddfc;
 }
-.btn .error {
+.btn.error {
   background-color: #e4757a;
 }
-.btn .info {
+.btn.info {
   background-color: #927bc1;
 }
-.btn .success {
+.btn.success {
   background-color: #63cc82;
 }
-.btn .warning {
+.btn.warning {
   background-color: #fd7856;
 }
 

@@ -3,45 +3,45 @@
 /* ============================================= */
 
 * {
-    font-family: 'Lato', sans-serif;
-    color: $base-font;
-    box-sizing: border-box;
-  }
+  font-family: 'Lato', sans-serif;
+  color: $base-font;
+  box-sizing: border-box;
+}
   
-  p {
-    line-height: 1.45em;
-  }
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}
   
-  a {
-    text-decoration: none;
-  }
   
-  
-  /* ============================================= */
-  /*              Typography                       */
-  /* ============================================= */
-  
-  .headline-primary {
-    color: $border1;
-    margin-left: 10px;
-  }
-  
-  .headline-secondary {
-    font-weight: 300;
-    color: $base-font;
-  }
-  
-  .link {
-    color: $col11-btn-default;
-    font-weight: 700;
-  }
-  
-  .blockquote {
-    font-size: 1.5em;
-    font-weight: 300;
-    font-style: italic;
-    margin-left: 20px;
-    padding-left: 20px;
-    border-left: 8px solid $border1;
-    border-radius: 5px;
-  }
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+
+.headline-primary {
+  color: $border1;
+  margin-left: 10px;
+}
+
+.headline-secondary {
+  font-weight: 300;
+  color: $base-font;
+}
+
+.link {
+  color: $col11-btn-default;
+  font-weight: 700;
+}
+
+.blockquote {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid $border1;
+  border-radius: 5px;
+}
